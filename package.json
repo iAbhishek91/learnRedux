@@ -1,0 +1,22 @@
+{
+  "name": "learn-redux",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:iAbhishek91/learnRedux.git",
+  "author": "Abhishek Das",
+  "license": "MIT",
+  "scripts": {
+    "build": "browserify src/app.js -o dist/app.js",
+    "start-server": "webpack-dev-server",
+    "start": "npm run build && npm run start-server"
+  },
+  "devDependencies": {
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "browserify": "^16.2.3",
+    "redux": "^4.0.1"
+  }
+}
