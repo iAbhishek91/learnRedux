@@ -7,8 +7,8 @@
 ## Action
 
 - actions are simple javascript objects(should be a *plain object*). It describes **WHAT HAPPENED** in the app.
-- actions object should have `type` property.
-- they are also called as payload (information from application) of data.
+- actions object should have *type* property.
+- second optional argument that an action takes is are also called as *payload* (information from application) of data.
 - best practices of creating actions [flux ref](https://github.com/redux-utilities/flux-standard-action)
 - try to send as less data as possible in payload.
 

@@ -39,7 +39,6 @@ function counterReducer(state = initialState, action){
       break;
     default:
       return state;
-      break;
   }
   return newState;
 }
